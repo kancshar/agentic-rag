@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Local secrets — never commit
+.env
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

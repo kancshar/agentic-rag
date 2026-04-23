@@ -1,0 +1,4 @@
+[server]
+# Disable module-path introspection to suppress torchvision warnings
+# from transformers vision models we don't use.
+fileWatcherType = "none"
